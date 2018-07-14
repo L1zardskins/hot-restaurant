@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 var tableData = require('../data/tableData');
-var waitListData = require('../data/waitListData');
+var waitListData = require('../data/waitListData.js');
 
 
 module.exports = function (app) {
