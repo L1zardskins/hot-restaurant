@@ -7,3 +7,9 @@ module.exports = function (app) {
         res.json(tableData)
     })
 };
+
+module.exports = function (app) {
+    app.get("/api/waitlist", function (req, res) {
+        res.json(waitListData)
+    })
+};
